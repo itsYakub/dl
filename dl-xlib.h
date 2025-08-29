@@ -1930,7 +1930,7 @@ static void	*g_handle_xlib = 0;
  * */
 
 DLAPI bool	dl_loadXlib(void) {
-	const int8_t	*_names[] = { "libX11.so", "libX11.so.6", "libX11.so.6.4.0", 0 };
+	const char	*_names[] = { "libX11.so", "libX11.so.6", "libX11.so.6.4.0", 0 };
 
 	/* Check if X11 isn't loaded already
 	 * */
